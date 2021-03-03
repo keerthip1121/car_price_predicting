@@ -1,1 +1,1 @@
-web: gunicorn app:cars_flask.py
+web: gunicorn cars_flask:app
